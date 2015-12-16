@@ -30,6 +30,18 @@ public class Main extends Activity {
         mp1.start();
     }
 
+    public void guiInterface(final View view)
+    {
+        final MediaPlayer mp1= MediaPlayer.create(getBaseContext(), R.raw.gui_interface);
+        mp1.start();
+    }
+
+    public void greenCode(final View view)
+    {
+        final MediaPlayer mp1= MediaPlayer.create(getBaseContext(), R.raw.green_code);
+        mp1.start();
+    }
+
     public void oneZero(final View view)
     {
         final MediaPlayer mp1= MediaPlayer.create(getBaseContext(), R.raw.onezero);
